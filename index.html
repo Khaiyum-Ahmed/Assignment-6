@@ -11,13 +11,72 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- style css -->
-     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
-<body>
+<body class="lato-primary">
+    <header class="w-11/12 mx-auto mb-14">
+        <!-- nav section start -->
+
+        <div class="navbar ">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+
+                <a class="btn border-none py-3 text-[32px] text-[#131313] font-black gap-3"><img src="images/logo.webp"
+                        alt="logo">Peddy</a>
+
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-base text-[#131313] opacity-70 gap-8">
+                    <li><a>Home</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <img class="object-cover" src="https://img.icons8.com/?size=24&id=H101gtpJBVoh&format=png"
+                    alt="Profile">
+            </div>
+        </div>
+
+        <!-- nav section end -->
+    </header>
+    <main>
+        <!-- Banner section start -->
 
 
-<h1 class="font-semibold text-center">welcome Peddy</h1>
+        <div class="hero bg-base-200 min-h-screen">
+            <div class="hero-content text-center">
+                <div class="max-w-md">
+                    <h1 class="text-5xl font-bold">Hello there</h1>
+                    <p class="py-6">
+                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    </p>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Banner section end -->
+    </main>
+
+
 
 
 
